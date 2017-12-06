@@ -18,10 +18,10 @@
 	- run ```rqt_graph``` to visualize the publish-subscribe relationships between ROS nodes
 
 
-- If you're done, type CTRL+C in the last terminal to stop the graph.
+- If you're done, close the graph.
 	- run ```rosnode list```
 	- then stop all listed node by running ```rosnode kill node-name```, except 'rosout'
 		- ```rosnode kill subscribe_geometry_Twist```
 		- ```rosnode kill filter_twist```
 		- ```rosnode kill publish_velocity```
-	- then stop the master node (terminal that runs roscore) by typing CTRL+C
+	- then stop the master node in terminal that runs roscore by typing CTRL+C
