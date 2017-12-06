@@ -5,6 +5,7 @@
 - Then run 'source devel/setup.bash'
 - Finally run 'roscore'
 
+
 - Open new 3 terminals 
 - For each terminal, in workspace directory run 'source devel/setup.bash'
 - For each terminal, run 
@@ -12,8 +13,10 @@
 	- 'rosrun exercise_3 exercise_3_vel_filter'
 	- 'rosrun exercise_3 exercise_3_vel_printer'
 
+
 - Open a new terminal
 - run 'rqt_graph' to visualize the publish-subscribe relationships between ROS nodes
+
 
 - If you're done, type CTRL+C in the last terminal to stop the graph.
 - run 'rosnode list'
