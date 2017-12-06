@@ -1,0 +1,8 @@
+prefix=/home/priaditeguh/ros/devel
+
+Name: exercise_3
+Description: Description of exercise_3
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/priaditeguh/ros/devel/lib 
+Requires: 
