@@ -3,8 +3,6 @@
 #include <ros/ros.h>
 #include <geometry_msgs/Twist.h> // For geometry_msgs::Twist
 
-// int total_msg_print;	
-
 // A call back function . Executed each time a new turtle1/cmd_vel_filtered message arrives.
 void twistMessageReceived(const geometry_msgs::Twist& msg) 
 {
