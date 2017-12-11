@@ -1,0 +1,24 @@
+<launch>
+	<node
+		pkg="exercise_4"
+		type="exercise_4_pubvel"
+		name="publish_velocity"
+		output="screen"
+		launch-prefix="xterm -e"
+	/>
+	<node
+		pkg="exercise_4"
+		type="exercise_4_vel_filter"
+		name="filter_velocity"	
+		output="screen"
+		launch-prefix="xterm -e"
+		required="true"
+	/>
+	<node
+		pkg="exercise_4"
+		type="exercise_4_vel_printer"
+		name="subscribe_velocity"
+		output="screen"
+		launch-prefix="xterm -e"
+	/>
+</launch>

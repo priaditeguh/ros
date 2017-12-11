@@ -1,2 +1,2 @@
-exercise_3
+exercise_3:exercise_4:exercise_6
 -DCATKIN_DEVEL_PREFIX=/home/priaditeguh/ros/devel -DCMAKE_INSTALL_PREFIX=/home/priaditeguh/ros/install -G Unix Makefiles

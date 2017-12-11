@@ -21,7 +21,7 @@
 - If you're done, close the graph.
 	- run ```rosnode list```
 	- then stop all listed node by running ```rosnode kill node-name```, except 'rosout'
-		- ```rosnode kill subscribe_geometry_Twist```
-		- ```rosnode kill filter_twist```
+		- ```rosnode kill subscribe_velocity```
+		- ```rosnode kill filter_velocity```
 		- ```rosnode kill publish_velocity```
 	- then stop the master node in terminal that runs roscore by typing CTRL+C

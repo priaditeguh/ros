@@ -1,0 +1,8 @@
+prefix=/home/priaditeguh/ros/devel
+
+Name: exercise_6
+Description: Description of exercise_6
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/priaditeguh/ros/devel/lib 
+Requires: 

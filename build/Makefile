@@ -257,6 +257,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named _catkin_empty_exported_target
+
+# Build rule for target.
+_catkin_empty_exported_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	$(MAKE) -f exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/build.make exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
 
 # Build rule for target.
@@ -555,6 +568,45 @@ exercise_3_pubvel/fast:
 	$(MAKE) -f exercise_3/CMakeFiles/exercise_3_pubvel.dir/build.make exercise_3/CMakeFiles/exercise_3_pubvel.dir/build
 .PHONY : exercise_3_pubvel/fast
 
+#=============================================================================
+# Target rules for targets named exercise_4_pubvel
+
+# Build rule for target.
+exercise_4_pubvel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise_4_pubvel
+.PHONY : exercise_4_pubvel
+
+# fast build rule for target.
+exercise_4_pubvel/fast:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_pubvel.dir/build.make exercise_4/CMakeFiles/exercise_4_pubvel.dir/build
+.PHONY : exercise_4_pubvel/fast
+
+#=============================================================================
+# Target rules for targets named exercise_4_vel_filter
+
+# Build rule for target.
+exercise_4_vel_filter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise_4_vel_filter
+.PHONY : exercise_4_vel_filter
+
+# fast build rule for target.
+exercise_4_vel_filter/fast:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_vel_filter.dir/build.make exercise_4/CMakeFiles/exercise_4_vel_filter.dir/build
+.PHONY : exercise_4_vel_filter/fast
+
+#=============================================================================
+# Target rules for targets named exercise_4_vel_printer
+
+# Build rule for target.
+exercise_4_vel_printer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise_4_vel_printer
+.PHONY : exercise_4_vel_printer
+
+# fast build rule for target.
+exercise_4_vel_printer/fast:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_vel_printer.dir/build.make exercise_4/CMakeFiles/exercise_4_vel_printer.dir/build
+.PHONY : exercise_4_vel_printer/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -575,6 +627,7 @@ help:
 	@echo "... test"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... _catkin_empty_exported_target"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... exercise_3_vel_printer"
@@ -598,6 +651,9 @@ help:
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... exercise_3_pubvel"
+	@echo "... exercise_4_pubvel"
+	@echo "... exercise_4_vel_filter"
+	@echo "... exercise_4_vel_printer"
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "exercise_3")
 set(exercise_3_VERSION "0.0.0")
-set(exercise_3_MAINTAINER "priaditeguh <priaditeguh@todo.todo>")
+set(exercise_3_MAINTAINER "priaditeguh <priaditeguh@gmail.com>")
 set(exercise_3_PACKAGE_FORMAT "2")
 set(exercise_3_BUILD_DEPENDS "roscpp" "geometry_msgs")
 set(exercise_3_BUILD_EXPORT_DEPENDS )

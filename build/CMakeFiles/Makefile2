@@ -245,7 +245,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/priaditeguh/ros/build/CMakeFiles --progress-num=7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/priaditeguh/ros/build/CMakeFiles --progress-num=13,14 "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +277,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/priaditeguh/ros/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/priaditeguh/ros/build/CMakeFiles --progress-num=15,16 "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,6 +299,56 @@ gtest/CMakeFiles/gtest_main.dir/clean:
 
 # clean rule for target.
 clean: gtest/CMakeFiles/gtest_main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory exercise_6
+
+# Convenience name for "all" pass in the directory.
+exercise_6/all:
+
+.PHONY : exercise_6/all
+
+# Convenience name for "clean" pass in the directory.
+exercise_6/clean: exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : exercise_6/clean
+
+# Convenience name for "preinstall" pass in the directory.
+exercise_6/preinstall:
+
+.PHONY : exercise_6/preinstall
+
+#=============================================================================
+# Target rules for target exercise_6/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/build.make exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/build.make exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/priaditeguh/ros/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+.PHONY : exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/priaditeguh/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/priaditeguh/ros/build/CMakeFiles 0
+.PHONY : exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/build.make exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+# clean rule for target.
+clean: exercise_6/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : clean
 
@@ -1092,6 +1142,139 @@ exercise_3/CMakeFiles/exercise_3_pubvel.dir/clean:
 
 # clean rule for target.
 clean: exercise_3/CMakeFiles/exercise_3_pubvel.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory exercise_4
+
+# Convenience name for "all" pass in the directory.
+exercise_4/all: exercise_4/CMakeFiles/exercise_4_pubvel.dir/all
+exercise_4/all: exercise_4/CMakeFiles/exercise_4_vel_filter.dir/all
+exercise_4/all: exercise_4/CMakeFiles/exercise_4_vel_printer.dir/all
+
+.PHONY : exercise_4/all
+
+# Convenience name for "clean" pass in the directory.
+exercise_4/clean: exercise_4/CMakeFiles/exercise_4_pubvel.dir/clean
+exercise_4/clean: exercise_4/CMakeFiles/exercise_4_vel_filter.dir/clean
+exercise_4/clean: exercise_4/CMakeFiles/exercise_4_vel_printer.dir/clean
+
+.PHONY : exercise_4/clean
+
+# Convenience name for "preinstall" pass in the directory.
+exercise_4/preinstall:
+
+.PHONY : exercise_4/preinstall
+
+#=============================================================================
+# Target rules for target exercise_4/CMakeFiles/exercise_4_pubvel.dir
+
+# All Build rule for target.
+exercise_4/CMakeFiles/exercise_4_pubvel.dir/all:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_pubvel.dir/build.make exercise_4/CMakeFiles/exercise_4_pubvel.dir/depend
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_pubvel.dir/build.make exercise_4/CMakeFiles/exercise_4_pubvel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/priaditeguh/ros/build/CMakeFiles --progress-num=7,8 "Built target exercise_4_pubvel"
+.PHONY : exercise_4/CMakeFiles/exercise_4_pubvel.dir/all
+
+# Include target in all.
+all: exercise_4/CMakeFiles/exercise_4_pubvel.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+exercise_4/CMakeFiles/exercise_4_pubvel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/priaditeguh/ros/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 exercise_4/CMakeFiles/exercise_4_pubvel.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/priaditeguh/ros/build/CMakeFiles 0
+.PHONY : exercise_4/CMakeFiles/exercise_4_pubvel.dir/rule
+
+# Convenience name for target.
+exercise_4_pubvel: exercise_4/CMakeFiles/exercise_4_pubvel.dir/rule
+
+.PHONY : exercise_4_pubvel
+
+# clean rule for target.
+exercise_4/CMakeFiles/exercise_4_pubvel.dir/clean:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_pubvel.dir/build.make exercise_4/CMakeFiles/exercise_4_pubvel.dir/clean
+.PHONY : exercise_4/CMakeFiles/exercise_4_pubvel.dir/clean
+
+# clean rule for target.
+clean: exercise_4/CMakeFiles/exercise_4_pubvel.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target exercise_4/CMakeFiles/exercise_4_vel_filter.dir
+
+# All Build rule for target.
+exercise_4/CMakeFiles/exercise_4_vel_filter.dir/all:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_vel_filter.dir/build.make exercise_4/CMakeFiles/exercise_4_vel_filter.dir/depend
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_vel_filter.dir/build.make exercise_4/CMakeFiles/exercise_4_vel_filter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/priaditeguh/ros/build/CMakeFiles --progress-num=9,10 "Built target exercise_4_vel_filter"
+.PHONY : exercise_4/CMakeFiles/exercise_4_vel_filter.dir/all
+
+# Include target in all.
+all: exercise_4/CMakeFiles/exercise_4_vel_filter.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+exercise_4/CMakeFiles/exercise_4_vel_filter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/priaditeguh/ros/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 exercise_4/CMakeFiles/exercise_4_vel_filter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/priaditeguh/ros/build/CMakeFiles 0
+.PHONY : exercise_4/CMakeFiles/exercise_4_vel_filter.dir/rule
+
+# Convenience name for target.
+exercise_4_vel_filter: exercise_4/CMakeFiles/exercise_4_vel_filter.dir/rule
+
+.PHONY : exercise_4_vel_filter
+
+# clean rule for target.
+exercise_4/CMakeFiles/exercise_4_vel_filter.dir/clean:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_vel_filter.dir/build.make exercise_4/CMakeFiles/exercise_4_vel_filter.dir/clean
+.PHONY : exercise_4/CMakeFiles/exercise_4_vel_filter.dir/clean
+
+# clean rule for target.
+clean: exercise_4/CMakeFiles/exercise_4_vel_filter.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target exercise_4/CMakeFiles/exercise_4_vel_printer.dir
+
+# All Build rule for target.
+exercise_4/CMakeFiles/exercise_4_vel_printer.dir/all:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_vel_printer.dir/build.make exercise_4/CMakeFiles/exercise_4_vel_printer.dir/depend
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_vel_printer.dir/build.make exercise_4/CMakeFiles/exercise_4_vel_printer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/priaditeguh/ros/build/CMakeFiles --progress-num=11,12 "Built target exercise_4_vel_printer"
+.PHONY : exercise_4/CMakeFiles/exercise_4_vel_printer.dir/all
+
+# Include target in all.
+all: exercise_4/CMakeFiles/exercise_4_vel_printer.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+exercise_4/CMakeFiles/exercise_4_vel_printer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/priaditeguh/ros/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 exercise_4/CMakeFiles/exercise_4_vel_printer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/priaditeguh/ros/build/CMakeFiles 0
+.PHONY : exercise_4/CMakeFiles/exercise_4_vel_printer.dir/rule
+
+# Convenience name for target.
+exercise_4_vel_printer: exercise_4/CMakeFiles/exercise_4_vel_printer.dir/rule
+
+.PHONY : exercise_4_vel_printer
+
+# clean rule for target.
+exercise_4/CMakeFiles/exercise_4_vel_printer.dir/clean:
+	$(MAKE) -f exercise_4/CMakeFiles/exercise_4_vel_printer.dir/build.make exercise_4/CMakeFiles/exercise_4_vel_printer.dir/clean
+.PHONY : exercise_4/CMakeFiles/exercise_4_vel_printer.dir/clean
+
+# clean rule for target.
+clean: exercise_4/CMakeFiles/exercise_4_vel_printer.dir/clean
 
 .PHONY : clean
 

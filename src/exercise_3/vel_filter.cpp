@@ -6,7 +6,7 @@
 ros::Publisher pub;
 
 // A call back function . Executed each time a new turtle1/cmd_vel message arrives.
-void twistMessageReceived(const geometry_msgs::Twist& msg) 
+void twistMessageFiltered(const geometry_msgs::Twist& msg) 
 {
 	if(msg.angular.z >= 0)
 	{
@@ -18,15 +18,14 @@ void twistMessageReceived(const geometry_msgs::Twist& msg)
 int main (int argc, char **argv) 
 {
 	// Initialize the ROS system and become a node.
-	ros::init(argc, argv,"filter_twist");
+	ros::init(argc, argv,"filter_velocity");
 	ros::NodeHandle nh;
 
 	// Create a publisher object.
-	// ros::Publisher pub = nh.advertise<geometry_msgs::Twist>("filter/cmd_vel",1000);
-	pub = nh.advertise<geometry_msgs::Twist>("filter/cmd_vel",1000);
+	pub = nh.advertise<geometry_msgs::Twist>("turtle1/cmd_vel_filtered",1000);
 
 	// Create a subscriber object.
-	ros::Subscriber sub = nh.subscribe("turtle1/cmd_vel", 1000, &twistMessageReceived);
+	ros::Subscriber sub = nh.subscribe("turtle1/cmd_vel", 1000, &twistMessageFiltered);
 
 	// Let ROS take over .
 	ros::spin();

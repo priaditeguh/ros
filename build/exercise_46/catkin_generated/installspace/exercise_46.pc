@@ -1,0 +1,8 @@
+prefix=/home/priaditeguh/ros/install
+
+Name: exercise_46
+Description: Description of exercise_46
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/priaditeguh/ros/install/lib 
+Requires: 
