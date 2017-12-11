@@ -14,8 +14,6 @@ void twistMessageReceived(const geometry_msgs::Twist& msg)
 
 int main (int argc, char **argv) 
 {
-	// total_msg_print = 0;
-
 	// Initialize the ROS system and become a node.
 	ros::init(argc, argv,"subscribe_velocity");
 	ros::NodeHandle nh;
